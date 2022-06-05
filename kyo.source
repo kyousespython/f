@@ -1,5 +1,5 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("kyo private hub v1.0",  "GrapeTheme")
+aaalocal Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("kyo private hub v1.0",  "DarkTheme")
 local Version = "0.0.3"
 
 local HomeTab = Window:NewTab("Home")
@@ -42,3 +42,4 @@ HomeSection:NewLabel("made by kyo#2222")
     -- MAIN 
     local UniversalTab = Window:NewTab("Main")
     local UniversalSection1 = UniversalTab:NewSection("Commands")
+    
